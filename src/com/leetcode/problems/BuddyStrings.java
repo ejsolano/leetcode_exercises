@@ -20,6 +20,11 @@ public class BuddyStrings {
 		if (A.length() == B.length()) {
 			System.out.println("Cadenas hermanas: " + buddyStrings(A,B));
 		}
+		
+		int n = 1000;
+		int length = (int)(Math.log10(n));
+		
+		System.out.println("------" + length);
 	}
 
 	public static boolean buddyStrings(String A, String B) {
